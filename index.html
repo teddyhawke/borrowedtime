@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Borrowed Time | A short film by Mason Campbell</title>
+<meta name="description" content="A promising young actress is killed on the set of her first film. Borrowed Time runs it backwards, to the day she got the part. A short film by Mason Campbell.">
+<link rel="canonical" href="https://borrowedtime.prismentmt.com/">
+<meta property="og:type" content="video.movie">
+<meta property="og:title" content="Borrowed Time | A short film by Mason Campbell">
+<meta property="og:description" content="A promising young actress is killed on the set of her first film. Borrowed Time runs it backwards, to the day she got the part.">
+<meta property="og:url" content="https://borrowedtime.prismentmt.com/">
+<meta property="og:image" content="https://borrowedtime.prismentmt.com/img/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a0a12">
+<link rel="icon" href="img/poster.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root { --bg: #08080c; --text: #ece8e2; --muted: #8d8996; --line: #24232c; --red: #d8322e; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 400 15px/1.6 "Inter Tight", system-ui, sans-serif; }
+a { color: inherit; text-decoration: none; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.page { max-width: 34rem; margin: 0 auto; padding: 0 24px 56px; }
+.hero { position: relative; }
+.band { position: relative; height: clamp(220px, 56vw, 440px); overflow: hidden; }
+.band img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; filter: saturate(.85) brightness(.5); transform: scale(1.04); }
+.band::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(8,8,12,.15) 0%, rgba(8,8,12,0) 40%, var(--bg) 100%); }
+.hud { position: absolute; top: 14px; left: 16px; right: 16px; z-index: 1; display: flex; justify-content: space-between;
+  font: 500 .7rem/1 ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .12em; color: rgba(236,232,226,.72); }
+.hud .rev { color: var(--red); }
+.poster { position: relative; z-index: 2; display: block; width: min(54vw, 270px); height: auto; margin: calc(-1 * clamp(130px, 36vw, 300px)) auto 0;
+  box-shadow: 0 30px 70px -18px rgba(0,0,0,.9), 0 0 0 1px rgba(255,255,255,.07); }
+.logline { margin: 44px 0 0; font: 400 1.45rem/1.35 "Instrument Serif", Georgia, serif; text-align: center; text-wrap: balance; }
+.meta { margin: 22px 0 0; text-align: center; font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.meta span + span::before { content: "/"; margin: 0 .9em; color: var(--line); }
+.links { margin: 44px 0 0; border-top: 1px solid var(--line); }
+.links a { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 15px 2px; border-bottom: 1px solid var(--line);
+  font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; transition: color .25s; }
+.links a .to { letter-spacing: .02em; text-transform: none; font-size: .9rem; color: var(--muted); transition: color .25s; }
+.links a:hover, .links a:hover .to { color: var(--red); }
+.links a:focus-visible { outline: 1px solid var(--text); outline-offset: 4px; }
+.stills { margin: 48px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.stills img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.stills img.wide { grid-column: span 2; aspect-ratio: 16 / 9; }
+.billing { margin: 48px 0 0; text-align: center; font-size: .72rem; line-height: 2; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+.billing b { font-weight: 500; color: var(--text); }
+.billing a:hover { color: var(--red); }
+@media (min-width: 700px) { .logline { font-size: 1.7rem; } }
+@media (prefers-reduced-motion: reduce) { .links a, .links a .to { transition: none; } }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="band">
+    <img src="img/band.webp" alt="" width="1600" height="1110">
+    <div class="hud" aria-hidden="true"><span class="tc" id="tc">00:22:00:00</span><span class="rev">&#9664;&#9664; REV</span></div>
+  </div>
+  <h1 class="visually-hidden">Borrowed Time, a short film by Mason Campbell</h1>
+  <img class="poster" src="img/poster.webp" alt="Borrowed Time poster: a woman in red, blurred in motion, under the tagline &ldquo;We got everything we wanted.&rdquo;" width="450" height="667">
+</header>
+<main class="page">
+
+  <p class="logline">A promising young actress is killed on the set of her first film. <em>Borrowed Time</em> runs it backwards, to the day she got the part.</p>
+
+  <p class="meta"><span>Short film</span><span>22 min</span></p>
+  <p class="meta" style="margin-top:6px"><span>On the festival circuit</span><span>Premiere TBA</span></p>
+
+  <nav class="links" aria-label="Links">
+    <a href="https://www.instagram.com/borrowedtimemovie/" target="_blank" rel="noopener">Instagram <span class="to">@borrowedtimemovie &#8599;</span></a>
+    <a href="https://www.tiktok.com/@borrowedtimemovie" target="_blank" rel="noopener">TikTok <span class="to">@borrowedtimemovie &#8599;</span></a>
+    <a href="mailto:teddy@prismentmt.com?subject=Borrowed%20Time">Screeners &amp; press <span class="to">teddy@prismentmt.com</span></a>
+  </nav>
+
+  <div class="stills" aria-label="Stills from the film">
+    <img class="wide" src="img/red-jacket.webp" alt="A woman in a red coat looks up in a dark room" width="800" height="555" loading="lazy">
+    <img src="img/necklace.webp" alt="Close-up of fingers holding a thin necklace" width="772" height="538" loading="lazy">
+    <img src="img/office.webp" alt="Two men face each other across a table in a dim office" width="800" height="555" loading="lazy">
+    <img src="img/stairs-gun.webp" alt="A man holds a gun toward a woman sitting on a fire escape stair" width="800" height="555" loading="lazy">
+    <img src="img/blur.webp" alt="A woman in red, blurred as she turns away" width="800" height="555" loading="lazy">
+    <img class="wide" src="img/stairs-wide.webp" alt="Two people at the foot of an outdoor stairway in daylight" width="800" height="555" loading="lazy">
+  </div>
+
+  <footer class="billing">
+    <p>Starring <b>Andalyn Honselaar</b> as Catherine<br>Written &amp; directed by <b><a href="https://www.imdb.com/name/nm11735726/" target="_blank" rel="noopener">Mason Campbell</a></b><br>
+    A <b>Purple Light Pictures</b> &amp; <b><a href="https://prismentmt.com/" target="_blank" rel="noopener">Prism Entertainment</a></b> production</p>
+  </footer>
+</main>
+<script>
+/* Edit-bay timecode in the corner, running backwards from 22:00 like the film. Still for reduced-motion users. */
+(function () {
+  var el = document.getElementById("tc");
+  if (!el || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var FPS = 24, total = 22 * 60 * FPS, start = performance.now();
+  var pad = function (n) { return (n < 10 ? "0" : "") + n; };
+  (function tick(now) {
+    var f = Math.max(total - Math.floor((now - start) / 1000 * FPS), 0);
+    var s = Math.floor(f / FPS);
+    el.textContent = "00:" + pad(Math.floor(s / 60)) + ":" + pad(s % 60) + ":" + pad(f % FPS);
+    if (f > 0) requestAnimationFrame(tick);
+  })(start);
+})();
+</script>
+</body>
+</html>
